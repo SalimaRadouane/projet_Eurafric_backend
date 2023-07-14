@@ -1,0 +1,223 @@
+
+SQL*Loader: Release 19.0.0.0.0 - Production on Mer. Juil. 5 09:50:33 2023
+Version 19.3.0.0.0
+
+Copyright (c) 1982, 2019, Oracle and/or its affiliates.  All rights reserved.
+
+Fichier de contrôle :   C:\Users\SALIMA\Desktop\P_eura\fileee\DE\pivot.ctl
+Fichier de données :      C:\Users\SALIMA\Desktop\P_eura\fileee\DE\param_flux1.txt
+  Fichier des enregistrements refusés :     C:\Users\SALIMA\Desktop\P_eura\fileee\DE\param_flux1.BAD
+  Fichier de rebut : C:\Users\SALIMA\Desktop\P_eura\fileee\DE\param_flux1.DIS
+ (Allouer tous les rebuts)
+
+Nombre à charger : ALL
+Nombre à ignorer : 0
+Erreurs autorisés : 50
+Tableau de variables :     250 lignes, maximum de 1048576 octets
+Continuation :    aucune spécification
+Chemin utilisé:      Classique
+Options de mode silencieux : FEEDBACK
+Table PARAM_CRE, chargé à partir de chaque enregistrement physique.
+Option d'insertion en vigueur pour cette table : TRUNCATE
+
+   Nom de colonne                  Position   Long  Type de données encadr.
+------------------------------ ---------- ----- ---- ---- ---------------------
+CODE_DOMAINE                          1:4     4           CHARACTER            
+CODE_APPLICATION                     6:10     5           CHARACTER            
+CODE_EVENEMENT                      11:25    15           CHARACTER            
+CODE_STRUCTURE                      26:44    19           CHARACTER            
+CODE_EMETTEUR                       45:50     6           CHARACTER            
+A_ENRICHIR                          51:53     3           CHARACTER            
+A_COMPTABILISER                     54:54     1           CHARACTER            
+DATE_MISE_PROD                      55:62     8           CHARACTER            
+ETAT_INITIAL                        63:64     2           CHARACTER            
+TOP_AGGRA_CDC                       65:65     1           CHARACTER            
+VAL_AGGRA_CDC                       66:67     2           CHARACTER            
+DATE_MAJ_AGGRA_CDC                  68:75     8           CHARACTER            
+TOP_AGGRA_CTX                       76:76     1           CHARACTER            
+VAL_AGGRA_CTX                       77:78     2           CHARACTER            
+DATE_MAJ_AGGRA_CTX                  79:86     8           CHARACTER            
+RIB                                 87:89     3           CHARACTER            
+DATE_DER_PASSAGE                    90:97     8           CHARACTER            
+LIGNE_VALIDE                       98:106     9           CHARACTER            
+LIGNE_REJETE                      107:115     9           CHARACTER            
+COMPTEUR_EVEN                     116:124     9           CHARACTER            
+TOP_AGGRA_PREC                    125:125     1           CHARACTER            
+VAL_AGGRA_PREC                    126:127     2           CHARACTER            
+DATE_MAJ_AGGRA_PREC               128:135     8           CHARACTER            
+
+Enregistrement 64 : Rejeté - Erreur sur table PARAM_CRE, colonne DATE_MAJ_AGGRA_CDC.
+ORA-01861: le littéral ne concorde pas avec le format chaîne de caractères
+
+Enregistrement 68 : Rejeté - Erreur sur table PARAM_CRE, colonne DATE_MAJ_AGGRA_CDC.
+ORA-01858: Caractère non numérique trouvé à la place d'un caractère numérique
+
+Enregistrement 69 : Rejeté - Erreur sur table PARAM_CRE, colonne DATE_MAJ_AGGRA_CDC.
+ORA-01861: le littéral ne concorde pas avec le format chaîne de caractères
+
+Enregistrement 158 : Rejeté - Erreur sur table PARAM_CRE, colonne DATE_MAJ_AGGRA_CDC.
+ORA-01861: le littéral ne concorde pas avec le format chaîne de caractères
+
+Enregistrement 182 : Rejeté - Erreur sur table PARAM_CRE, colonne DATE_MAJ_AGGRA_CDC.
+ORA-01861: le littéral ne concorde pas avec le format chaîne de caractères
+
+Enregistrement 189 : Rejeté - Erreur sur table PARAM_CRE, colonne DATE_MISE_PROD.
+ORA-01861: le littéral ne concorde pas avec le format chaîne de caractères
+
+Enregistrement 195 : Rejeté - Erreur sur table PARAM_CRE, colonne DATE_MAJ_AGGRA_CDC.
+ORA-01861: le littéral ne concorde pas avec le format chaîne de caractères
+
+Enregistrement 198 : Rejeté - Erreur sur table PARAM_CRE, colonne DATE_MAJ_AGGRA_CDC.
+ORA-01861: le littéral ne concorde pas avec le format chaîne de caractères
+
+Enregistrement 199 : Rejeté - Erreur sur table PARAM_CRE, colonne DATE_MAJ_AGGRA_CDC.
+ORA-01861: le littéral ne concorde pas avec le format chaîne de caractères
+
+Enregistrement 200 : Rejeté - Erreur sur table PARAM_CRE, colonne DATE_MAJ_AGGRA_CDC.
+ORA-01861: le littéral ne concorde pas avec le format chaîne de caractères
+
+Enregistrement 206 : Rejeté - Erreur sur table PARAM_CRE, colonne DATE_MAJ_AGGRA_CDC.
+ORA-01861: le littéral ne concorde pas avec le format chaîne de caractères
+
+Enregistrement 228 : Rejeté - Erreur sur table PARAM_CRE, colonne DATE_MAJ_AGGRA_CDC.
+ORA-01861: le littéral ne concorde pas avec le format chaîne de caractères
+
+Enregistrement 238 : Rejeté - Erreur sur table PARAM_CRE, colonne DATE_MAJ_AGGRA_CDC.
+ORA-01861: le littéral ne concorde pas avec le format chaîne de caractères
+
+Enregistrement 239 : Rejeté - Erreur sur table PARAM_CRE, colonne DATE_MISE_PROD.
+ORA-01861: le littéral ne concorde pas avec le format chaîne de caractères
+
+Enregistrement 240 : Rejeté - Erreur sur table PARAM_CRE, colonne DATE_MISE_PROD.
+ORA-01861: le littéral ne concorde pas avec le format chaîne de caractères
+
+Enregistrement 241 : Rejeté - Erreur sur table PARAM_CRE, colonne DATE_MISE_PROD.
+ORA-01861: le littéral ne concorde pas avec le format chaîne de caractères
+
+Enregistrement 242 : Rejeté - Erreur sur table PARAM_CRE, colonne DATE_MISE_PROD.
+ORA-01861: le littéral ne concorde pas avec le format chaîne de caractères
+
+Enregistrement 243 : Rejeté - Erreur sur table PARAM_CRE, colonne DATE_MISE_PROD.
+ORA-01861: le littéral ne concorde pas avec le format chaîne de caractères
+
+Enregistrement 244 : Rejeté - Erreur sur table PARAM_CRE, colonne DATE_MISE_PROD.
+ORA-01861: le littéral ne concorde pas avec le format chaîne de caractères
+
+Enregistrement 245 : Rejeté - Erreur sur table PARAM_CRE, colonne DATE_MISE_PROD.
+ORA-01861: le littéral ne concorde pas avec le format chaîne de caractères
+
+Enregistrement 246 : Rejeté - Erreur sur table PARAM_CRE, colonne DATE_MISE_PROD.
+ORA-01861: le littéral ne concorde pas avec le format chaîne de caractères
+
+Enregistrement 247 : Rejeté - Erreur sur table PARAM_CRE, colonne DATE_MISE_PROD.
+ORA-01861: le littéral ne concorde pas avec le format chaîne de caractères
+
+Enregistrement 248 : Rejeté - Erreur sur table PARAM_CRE, colonne DATE_MISE_PROD.
+ORA-01861: le littéral ne concorde pas avec le format chaîne de caractères
+
+Enregistrement 249 : Rejeté - Erreur sur table PARAM_CRE, colonne DATE_MISE_PROD.
+ORA-01861: le littéral ne concorde pas avec le format chaîne de caractères
+
+Enregistrement 250 : Rejeté - Erreur sur table PARAM_CRE, colonne DATE_MISE_PROD.
+ORA-01861: le littéral ne concorde pas avec le format chaîne de caractères
+
+Enregistrement 251 : Rejeté - Erreur sur table PARAM_CRE, colonne DATE_MISE_PROD.
+ORA-01861: le littéral ne concorde pas avec le format chaîne de caractères
+
+Enregistrement 252 : Rejeté - Erreur sur table PARAM_CRE, colonne DATE_MISE_PROD.
+ORA-01861: le littéral ne concorde pas avec le format chaîne de caractères
+
+Enregistrement 253 : Rejeté - Erreur sur table PARAM_CRE, colonne DATE_MISE_PROD.
+ORA-01861: le littéral ne concorde pas avec le format chaîne de caractères
+
+Enregistrement 254 : Rejeté - Erreur sur table PARAM_CRE, colonne DATE_MISE_PROD.
+ORA-01861: le littéral ne concorde pas avec le format chaîne de caractères
+
+Enregistrement 255 : Rejeté - Erreur sur table PARAM_CRE, colonne DATE_MISE_PROD.
+ORA-01861: le littéral ne concorde pas avec le format chaîne de caractères
+
+Enregistrement 256 : Rejeté - Erreur sur table PARAM_CRE, colonne DATE_MISE_PROD.
+ORA-01861: le littéral ne concorde pas avec le format chaîne de caractères
+
+Enregistrement 257 : Rejeté - Erreur sur table PARAM_CRE, colonne DATE_MISE_PROD.
+ORA-01861: le littéral ne concorde pas avec le format chaîne de caractères
+
+Enregistrement 258 : Rejeté - Erreur sur table PARAM_CRE, colonne DATE_MISE_PROD.
+ORA-01861: le littéral ne concorde pas avec le format chaîne de caractères
+
+Enregistrement 259 : Rejeté - Erreur sur table PARAM_CRE, colonne DATE_MISE_PROD.
+ORA-01861: le littéral ne concorde pas avec le format chaîne de caractères
+
+Enregistrement 260 : Rejeté - Erreur sur table PARAM_CRE, colonne DATE_MISE_PROD.
+ORA-01861: le littéral ne concorde pas avec le format chaîne de caractères
+
+Enregistrement 261 : Rejeté - Erreur sur table PARAM_CRE, colonne DATE_MISE_PROD.
+ORA-01861: le littéral ne concorde pas avec le format chaîne de caractères
+
+Enregistrement 262 : Rejeté - Erreur sur table PARAM_CRE, colonne DATE_MISE_PROD.
+ORA-01861: le littéral ne concorde pas avec le format chaîne de caractères
+
+Enregistrement 263 : Rejeté - Erreur sur table PARAM_CRE, colonne DATE_MISE_PROD.
+ORA-01861: le littéral ne concorde pas avec le format chaîne de caractères
+
+Enregistrement 264 : Rejeté - Erreur sur table PARAM_CRE, colonne DATE_MISE_PROD.
+ORA-01861: le littéral ne concorde pas avec le format chaîne de caractères
+
+Enregistrement 265 : Rejeté - Erreur sur table PARAM_CRE, colonne DATE_MISE_PROD.
+ORA-01861: le littéral ne concorde pas avec le format chaîne de caractères
+
+Enregistrement 266 : Rejeté - Erreur sur table PARAM_CRE, colonne DATE_MISE_PROD.
+ORA-01861: le littéral ne concorde pas avec le format chaîne de caractères
+
+Enregistrement 267 : Rejeté - Erreur sur table PARAM_CRE, colonne DATE_MISE_PROD.
+ORA-01861: le littéral ne concorde pas avec le format chaîne de caractères
+
+Enregistrement 268 : Rejeté - Erreur sur table PARAM_CRE, colonne DATE_MISE_PROD.
+ORA-01861: le littéral ne concorde pas avec le format chaîne de caractères
+
+Enregistrement 269 : Rejeté - Erreur sur table PARAM_CRE, colonne DATE_MISE_PROD.
+ORA-01861: le littéral ne concorde pas avec le format chaîne de caractères
+
+Enregistrement 270 : Rejeté - Erreur sur table PARAM_CRE, colonne DATE_MISE_PROD.
+ORA-01861: le littéral ne concorde pas avec le format chaîne de caractères
+
+Enregistrement 271 : Rejeté - Erreur sur table PARAM_CRE, colonne DATE_MISE_PROD.
+ORA-01861: le littéral ne concorde pas avec le format chaîne de caractères
+
+Enregistrement 272 : Rejeté - Erreur sur table PARAM_CRE, colonne DATE_MISE_PROD.
+ORA-01861: le littéral ne concorde pas avec le format chaîne de caractères
+
+Enregistrement 273 : Rejeté - Erreur sur table PARAM_CRE, colonne DATE_MISE_PROD.
+ORA-01861: le littéral ne concorde pas avec le format chaîne de caractères
+
+Enregistrement 274 : Rejeté - Erreur sur table PARAM_CRE, colonne DATE_MISE_PROD.
+ORA-01861: le littéral ne concorde pas avec le format chaîne de caractères
+
+Enregistrement 275 : Rejeté - Erreur sur table PARAM_CRE, colonne DATE_MISE_PROD.
+ORA-01861: le littéral ne concorde pas avec le format chaîne de caractères
+
+Enregistrement 276 : Rejeté - Erreur sur table PARAM_CRE, colonne DATE_MISE_PROD.
+ORA-01861: le littéral ne concorde pas avec le format chaîne de caractères
+
+\\MAXIMUM ERROR COUNT EXCEEDED - Les statistiques données ci-dessus résultent d'une exécution partielle.
+
+Table PARAM_CRE :
+  Chargement de 225 Lignes effectué.
+  51 Lignes : chargement impossible dû à des erreurs de données.
+  0 Lignes : chargement impossible car échec de toutes les clauses WHEN.
+  0 Lignes : chargement impossible car tous les champs étaient non renseignés.
+
+
+Espace affecté au tableau de variables :                  48000 octets(250 lignes)
+Octets de tampon de lecture : 1048576
+
+Nombre total d'enregistrements logiques ignorés :          0
+Nombre total d'enregistrements logiques lus :           500
+Nombre total d'enregistrements logiques rejetés :        51
+Nombre total d'enregistrements logiques mis au rebut :        0
+
+Le début de l'exécution a été effectué sur Mer. Juil. 05 09:50:33 2023
+La fin de l'exécution a été effectuée sur Mer. Juil. 05 09:50:34 2023
+
+Temps écoulé (ELAPSED) :     00:00:00.30
+Temps processeur (CPU) :    00:00:00.18
